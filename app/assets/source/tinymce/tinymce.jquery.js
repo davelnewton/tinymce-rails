@@ -22758,7 +22758,8 @@ define("tinymce/Shortcuts", [
 	var keyCodeLookup = {
 		"f9": 120,
 		"f10": 121,
-		"f11": 122
+		"f11": 122,
+		"enter": 13
 	};
 
 	return function(editor) {
