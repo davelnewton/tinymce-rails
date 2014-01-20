@@ -22766,7 +22766,7 @@ define("tinymce/Shortcuts", [
 		var self = this, shortcuts = {};
 
 		editor.on('keyup keypress keydown', function(e) {
-			if (e.altKey || e.ctrlKey || e.metaKey) {
+			if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {
 				each(shortcuts, function(shortcut) {
 					var ctrlKey = Env.mac ? e.metaKey : e.ctrlKey;
 
